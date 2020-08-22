@@ -28,11 +28,17 @@ npx create-react-app <nombre>
 cd <nombre>
 
 ## Iniciar App
-
 # npm:
 npm start
 # yarn:
 yarn start
+
+# Crear Storybook
+npx -p @storybook/cli sb init
+
+## Iniciar Storybook
+# yarn:
+yarn storybook
 ```
 
 No encuentro manera de parar los servidores locales desde **`PowerShell`** así que lo hago a las bravas:
