@@ -23,17 +23,19 @@ Algunas enlaces relevantes *extra* mientras realizo el tutorial.
 ### Comandos de interés
 
 ```PowerShell
-# La propia App: http://localhost:3000
+# Crear App
 npx create-react-app <nombre>
 cd <nombre>
+
+## Iniciar App
+
 # npm:
 npm start
 # yarn:
 yarn start
-
 ```
 
-No encuentro manera de parar 
+No encuentro manera de parar los servidores locales desde **`PowerShell`** así que lo hago a las bravas:
 
 ```PowerShell
 # Puerto de la propia App: http://localhost:3000
