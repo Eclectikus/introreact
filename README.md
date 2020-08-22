@@ -10,7 +10,7 @@ Revisando la documentación de [**`React`**](https://reactjs.org/) y más espec�
 
 La mayoría de los enlaces relevantes están en la sección [README.md original](#readmemd-original).
 
-Algunas enlaces relevantes mientras realizo el tutorial.
+Algunas enlaces relevantes *extra* mientras realizo el tutorial.
 
 ### Mi entorno y herramientas
 
