@@ -1,5 +1,11 @@
 # Intro REACT
 
+Revisando la documentación de [**`React`**](https://reactjs.org/) y más específicamente:
+
+- [**Tutorial: Introducción a React**](https://es.reactjs.org/tutorial/tutorial.html)
+- [**Create React App**](https://create-react-app.dev/docs/getting-started)
+- [**Storybook for React tutorial**](https://www.learnstorybook.com/intro-to-storybook/react/en/get-started/)
+
 ## Recursos
 
 La mayoría de los enlaces relevantes están en la sección [README.md original](#readmemd-original) Algunas notas extras mientras realizo el tutorial.
