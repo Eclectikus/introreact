@@ -2,7 +2,7 @@
 
 ## Recursos
 
-La mayoría de los enlaces relevantes están en la sección [README.md original](#readme.md-original) Algunas notas extras mientras realizo el tutorial.
+La mayoría de los enlaces relevantes están en la sección [README.md original](#readmemd-original) Algunas notas extras mientras realizo el tutorial.
 
 ### Mi entorno y herramientas
 
