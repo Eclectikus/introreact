@@ -15,10 +15,10 @@ Algunas enlaces relevantes *extra* mientras realizo el tutorial.
 ### Mi entorno y herramientas
 
 - [**`Visual Studio Code`**](https://code.visualstudio.com/)
+- [**`Git`**](https://git-scm.com/) - [**`Github`**](https://github.com/Eclectikus) - [**`GitHub Desktop`**](https://desktop.github.com/) **/** [**`TortoiseSVN`**](https://osdn.net/projects/tortoisesvn/)
 - [**`PowerShell`**](https://docs.microsoft.com/es-es/powershell/)
 - [**`Scoop`**](https://scoop.sh/)
 - [**`npm`**](https://www.npmjs.com/) - [**`npx`**](https://www.npmjs.com/package/npx) **/** [**`yarn`**](https://yarnpkg.com/)
-- [**`Github`**](https://github.com/Eclectikus) **/** [**`Git`**](https://git-scm.com/)
 
 ### Comandos de interés
 
