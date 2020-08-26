@@ -1,6 +1,6 @@
 # Intro REACT
 
-Revisando la documentación de [**`React`**](https://reactjs.org/) y más específicamente:
+Revisando la documentación de [**`React`**](https://reactjs.org/) y más específicamente los principales tutoriales:
 
 - [**Tutorial: Introducción a React**](https://es.reactjs.org/tutorial/tutorial.html)
 - [**Create React App**](https://create-react-app.dev/docs/getting-started)
@@ -8,9 +8,9 @@ Revisando la documentación de [**`React`**](https://reactjs.org/) y más espec�
 
 ## Recursos
 
-La mayoría de los enlaces relevantes están en la sección [README.md original](#readmemd-original).
+Puedes (y deberías) consultar más abajo el [README.md original](#readmemd-original) (en inglés).
 
-Algunas enlaces relevantes *extra* mientras realizo el tutorial.
+Información *extra* mientras realizo el tutorial.
 
 ### Mi entorno y herramientas
 
@@ -20,7 +20,11 @@ Algunas enlaces relevantes *extra* mientras realizo el tutorial.
 - [**`Scoop`**](https://scoop.sh/)
 - [**`npm`**](https://www.npmjs.com/) - [**`npx`**](https://www.npmjs.com/package/npx) **/** [**`yarn`**](https://yarnpkg.com/)
 
-### Comandos de interés
+### PowerShell
+
+Aunque en principio es posible utilizar el **`CLI`** que tengas integrado en tu propio **`IDE`**, yo he utilizado aquí **`PowerShell 5.1`** ([Docs](https://docs.microsoft.com/en-us/powershell/scripting/how-to-use-docs?view=powershell-5.1)).
+
+Los comandos centrales son:
 
 ```PowerShell
 # Crear App
@@ -39,9 +43,64 @@ npx -p @storybook/cli sb init
 ## Iniciar Storybook
 # yarn:
 yarn storybook
+
+## Iniciar test
+yarn test
+```
+Estos tres comandos (**`yarn start`**, **`yarn storybook`** y **`yarn test`**) ocupan tres pestañas y por tanto es necesario habilitar una 4ª pestaña para usar libremente otros comandos que puedas necesitar.
+
+Para simplificar el proceso he creado dos `scripts` que automatizan el inicio. Uno para ir al directorio de desarrollo:
+
+```PowerShell
+# D:\Developer\WPSscripts\webdev.ps1
+
+# Ir al directorio de trabajo, en mi caso:
+d:
+cd developer\miswebs\introreact
+```
+Y otro para preparar las cuatros pestañas necesarias en el directorio de trabajo, y renombrarlas convenientemente:
+
+```PowerShell
+# D:\Developer\WPSscripts\introreact.ps1
+
+# 4 tabs
+
+# Ventana de aplicación
+$psise.PowerShellTabs[0].DisplayName  = ‘App’
+
+# Ventana de Storybook
+$psISE.PowerShellTabs.Add()
+$psise.PowerShellTabs[1].DisplayName  = ‘Storybook’
+
+# Ventana de test
+$psISE.PowerShellTabs.Add()
+$psise.PowerShellTabs[2].DisplayName  = ‘Test’
+
+# Ventana de comandos
+$psISE.PowerShellTabs.Add()
+$psise.PowerShellTabs[3].DisplayName  = ‘Comandos’
+
+# Run script `webdev`
+
+$psISE.PowerShellTabs.SetSelectedPowerShellTab($psISE.PowerShellTabs[0])
+& "D:\Developer\WPSscripts\webdev.ps1"
+# > yarn start
+
+$psISE.PowerShellTabs[1].Invoke('webdev')
+# > yarn storybook
+
+$psISE.PowerShellTabs[2].Invoke('webdev')
+# > yarn start
+
+$psISE.PowerShellTabs[3].Invoke('webdev')
+# > whatever
+
+$psISE.PowerShellTabs.SetSelectedPowerShellTab($psISE.PowerShellTabs[3])
+
 ```
 
-No encuentro manera de parar los servidores locales desde **`PowerShell`** así que lo hago a las bravas:
+
+Una vez iniciados, no encuentro manera de parar los servidores locales desde **`PowerShell`** (`Ctrl+C` no funciona), así que lo hago a las bravas:
 
 ```PowerShell
 # Puerto de la propia App: http://localhost:3000
