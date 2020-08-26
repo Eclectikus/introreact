@@ -80,7 +80,7 @@ $psise.PowerShellTabs[2].DisplayName  = ‘Test’
 $psISE.PowerShellTabs.Add()
 $psise.PowerShellTabs[3].DisplayName  = ‘Comandos’
 
-# Run script `webdev`
+# Run script `webdev` vía el comando `Invoke`
 
 $psISE.PowerShellTabs.SetSelectedPowerShellTab($psISE.PowerShellTabs[0])
 & "D:\Developer\WPSscripts\webdev.ps1"
@@ -109,6 +109,8 @@ npx kill-port 3000
 npx kill-port 6006
 
 ```
+
+---
 
 ## README.md original
 
