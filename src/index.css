@@ -1084,7 +1084,7 @@ a:focus {
 }
 
 .list-item.TASK_PINNED .icon-star {
-  color: rgb(36, 14, 238);
+  color: rgb(201, 14, 238);
 }
 
 .list-item.TASK_ARCHIVED input[type="text"] {
