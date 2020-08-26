@@ -90,7 +90,7 @@ $psISE.PowerShellTabs[1].Invoke('webdev')
 # > yarn storybook
 
 $psISE.PowerShellTabs[2].Invoke('webdev')
-# > yarn start
+# > yarn test
 
 $psISE.PowerShellTabs[3].Invoke('webdev')
 # > whatever
