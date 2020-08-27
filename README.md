@@ -5,15 +5,13 @@ Revisando la documentación de [**`React`**](https://reactjs.org/) y más espec�
 - [**Tutorial: Introducción a React**](https://es.reactjs.org/tutorial/tutorial.html)
 - [**Create React App**](https://create-react-app.dev/docs/getting-started)
 - [**Storybook for React tutorial**](https://www.learnstorybook.com/intro-to-storybook/react/en/get-started/)
-- [**Redux tutorial](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
+- [**Redux tutorial**](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
 
-:warning: Esto no es un *tutorial de un tutorial*, es simplemente una colección de enlaces y recursos necesarios para seguir la documentación y probar los ejemplos que se usan las diferentes *documentaciones*.
+:warning: Esto no es un *tutorial de un tutorial*, es simplemente una colección de recursos y rutinas útiles para seguir la documentación y probar los ejemplos que se usan en las diferentes *documentaciones*. Aunque son notas para mi uso personal, las comparto por si fueran de ayuda para aquellos que utilicen un entorno de desarrollo similar al mío. 
 
 ## Recursos
 
 Puedes (y deberías) consultar más abajo el [README.md original](#readmemd-original) (en inglés).
-
-Información *extra* mientras realizo el tutorial.
 
 ### Mi entorno de desarrollo
 
