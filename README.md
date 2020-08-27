@@ -1,12 +1,12 @@
 # Intro REACT
 
-Revisando la documentación de [**`React`**](https://reactjs.org/) y más específicamente de los principales tutoriales disponible:
+Revisando la documentación de [**`React`**](https://reactjs.org/) y más específicamente de los principales tutoriales disponibles:
 
 - [**Tutorial: Introducción a React**](https://es.reactjs.org/tutorial/tutorial.html)
 - [**Create React App**](https://create-react-app.dev/docs/getting-started)
 - [**Storybook for React tutorial**](https://www.learnstorybook.com/intro-to-storybook/react/en/get-started/)
 - [**Redux tutorial**](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
-- [Chromatic docs](https://www.chromatic.com/docs/)
+- [**Chromatic docs**](https://www.chromatic.com/docs/)
 
 :warning: Esto no es un *tutorial de un tutorial*, es simplemente una colección de recursos y rutinas útiles para seguir la documentación y probar los ejemplos que se usan en las diferentes *documentaciones*. Aunque son notas para mi uso personal, las comparto por si fueran de ayuda para aquellos que utilicen un entorno de desarrollo similar al mío. 
 
@@ -20,7 +20,7 @@ Adicionalmente puedes (y deberías) consultar más abajo el [README.md original]
 - [**`Scoop`**](https://scoop.sh/)
 - [**`npm`**](https://www.npmjs.com/) - [**`npx`**](https://www.npmjs.com/package/npx) **/** [**`yarn`**](https://yarnpkg.com/)
 - [Redux](https://redux.js.org/)
-- [Chromatic](https://www.chromatic.com/) (:warning: usar [GitHub secrets](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) para ofuscar el **`token`** del proyecto)
+- [Chromatic](https://www.chromatic.com/) :warning: Usar [GitHub secrets](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) para ofuscar el **`token`** del proyecto.
 
 ## PowerShell
 
