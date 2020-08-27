@@ -8,7 +8,7 @@ Revisando la documentación de [**`React`**](https://reactjs.org/) y más espec�
 - [**Redux tutorial**](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
 - [**Chromatic docs**](https://www.chromatic.com/docs/)
 
-:warning: Esto no es un *tutorial de un tutorial*, es simplemente una colección de recursos y rutinas útiles para seguir la documentación y probar los ejemplos que se usan en las diferentes *documentaciones*. Aunque son notas para mi uso personal, las comparto por si fueran de ayuda para aquellos que utilicen un entorno de desarrollo similar al mío. 
+:warning: Esto no es un *tutorial de un tutorial*, es simplemente una colección de recursos y rutinas útiles para seguir la documentación y probar los ejemplos que se usan en las diferentes *documentaciones*. Aunque son notas para mi uso personal, las comparto por si fueran de ayuda para aquellos que utilicen un entorno de desarrollo similar al mío, y quieran darle una vuelta a la biblioteca **`React`** y aledaños.
 
 Adicionalmente puedes (y deberías) consultar más abajo el [README.md original](#readmemd-original) (en inglés).
 
@@ -19,6 +19,7 @@ Adicionalmente puedes (y deberías) consultar más abajo el [README.md original]
 - [**`PowerShell`**](https://docs.microsoft.com/es-es/powershell/)
 - [**`Scoop`**](https://scoop.sh/)
 - [**`npm`**](https://www.npmjs.com/) - [**`npx`**](https://www.npmjs.com/package/npx) **/** [**`yarn`**](https://yarnpkg.com/)
+- [**`React`**](https://es.reactjs.org/)
 - [**Redux**](https://redux.js.org/)
 - [**Chromatic**](https://www.chromatic.com/) :shipit: Usar [GitHub secrets](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) para ofuscar el **`token`** del proyecto.
 
@@ -51,6 +52,9 @@ yarn test
 
 ## Instalar dependencias `Redux`
 yarn add react-redux redux
+
+## Instalar dependencias `Chromatic`
+yarn add -D chromatic
 ```
 
 Estos tres comandos (**`yarn start`**, **`yarn storybook`** y **`yarn test`**) ocupan tres pestañas y por tanto debemos habilitar una 4ª pestaña para usar libremente otros comandos que puedas necesitar.
