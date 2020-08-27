@@ -2,14 +2,16 @@
 
 import React from 'react';
 
-import TaskList from './TaskList';
+import {
+    PureTaskList
+} from './TaskList';
 import {
     taskData,
     actionsData
 } from './Task.stories';
 
 export default {
-    component: TaskList,
+    component: PureTaskList,
     title: 'TaskList',
     decorators: [story => < div style = {
             {
@@ -62,28 +64,28 @@ export default {
         },
     ];
 
-    export const Default = () => < TaskList tasks = {
+    export const Default = () => < PureTaskList tasks = {
         defaultTasksData
     } {
         ...actionsData
     }
     />;
 
-    export const WithPinnedTasks = () => < TaskList tasks = {
+    export const WithPinnedTasks = () => < PureTaskList tasks = {
         withPinnedTasksData
     } {
         ...actionsData
     }
     />;
 
-    export const Loading = () => < TaskList loading tasks = {
+    export const Loading = () => < PureTaskList loading tasks = {
         []
     } {
         ...actionsData
     }
     />;
 
-    export const Empty = () => < TaskList tasks = {
+    export const Empty = () => < PureTaskList tasks = {
         []
     } {
         ...actionsData

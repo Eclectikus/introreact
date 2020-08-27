@@ -1,10 +1,13 @@
 # Intro REACT
 
-Revisando la documentación de [**`React`**](https://reactjs.org/) y más específicamente los principales tutoriales:
+Revisando la documentación de [**`React`**](https://reactjs.org/) y más específicamente de los principales tutoriales disponible:
 
 - [**Tutorial: Introducción a React**](https://es.reactjs.org/tutorial/tutorial.html)
 - [**Create React App**](https://create-react-app.dev/docs/getting-started)
 - [**Storybook for React tutorial**](https://www.learnstorybook.com/intro-to-storybook/react/en/get-started/)
+- [**Redux tutorial](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
+
+:warning: Esto no es un *tutorial de un tutorial*, es simplemente una colección de enlaces y recursos necesarios para seguir la documentación y probar los ejemplos que se usan las diferentes *documentaciones*.
 
 ## Recursos
 
@@ -12,7 +15,7 @@ Puedes (y deberías) consultar más abajo el [README.md original](#readmemd-orig
 
 Información *extra* mientras realizo el tutorial.
 
-### Mi entorno y herramientas
+### Mi entorno de desarrollo
 
 - [**`Visual Studio Code`**](https://code.visualstudio.com/)
 - [**`Git`**](https://git-scm.com/) - [**`Github`**](https://github.com/Eclectikus) - [**`GitHub Desktop`**](https://desktop.github.com/) **/** [**`TortoiseSVN`**](https://osdn.net/projects/tortoisesvn/)
@@ -46,8 +49,12 @@ yarn storybook
 
 ## Iniciar test
 yarn test
+
+## Instalar dependencias `Redux`
+yarn add react-redux redux
 ```
-Estos tres comandos (**`yarn start`**, **`yarn storybook`** y **`yarn test`**) ocupan tres pestañas y por tanto es necesario habilitar una 4ª pestaña para usar libremente otros comandos que puedas necesitar.
+
+Estos tres comandos (**`yarn start`**, **`yarn storybook`** y **`yarn test`**) ocupan tres pestañas y por tanto debemos habilitar una 4ª pestaña para usar libremente otros comandos que puedas necesitar.
 
 Para simplificar el proceso he creado dos `scripts` que automatizan el inicio. Uno para ir al directorio de desarrollo:
 
@@ -58,6 +65,7 @@ Para simplificar el proceso he creado dos `scripts` que automatizan el inicio. U
 d:
 cd developer\miswebs\introreact
 ```
+
 Y otro para preparar las cuatros pestañas necesarias en el directorio de trabajo, y renombrarlas convenientemente:
 
 ```PowerShell
@@ -99,15 +107,13 @@ $psISE.PowerShellTabs.SetSelectedPowerShellTab($psISE.PowerShellTabs[3])
 
 ```
 
-
-Una vez iniciados, no encuentro manera de parar los servidores locales desde **`PowerShell`** (`Ctrl+C` no funciona), así que lo hago a las bravas:
+Una vez iniciados, no encuentro manera de parar los servidores locales desde **`PowerShell`** (`Ctrl+C` no funciona), así que lo hago *a las bravas*:
 
 ```PowerShell
 # Puerto de la propia App: http://localhost:3000
 npx kill-port 3000
 # Puerto de `Storybook`: http://localhost:6006
 npx kill-port 6006
-
 ```
 
 ---
