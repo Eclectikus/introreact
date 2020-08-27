@@ -9,11 +9,9 @@ Revisando la documentación de [**`React`**](https://reactjs.org/) y más espec�
 
 :warning: Esto no es un *tutorial de un tutorial*, es simplemente una colección de recursos y rutinas útiles para seguir la documentación y probar los ejemplos que se usan en las diferentes *documentaciones*. Aunque son notas para mi uso personal, las comparto por si fueran de ayuda para aquellos que utilicen un entorno de desarrollo similar al mío. 
 
-## Recursos
+Adicionalmente puedes (y deberías) consultar más abajo el [README.md original](#readmemd-original) (en inglés).
 
-Puedes (y deberías) consultar más abajo el [README.md original](#readmemd-original) (en inglés).
-
-### Mi entorno de desarrollo
+## Mi entorno de desarrollo
 
 - [**`Visual Studio Code`**](https://code.visualstudio.com/)
 - [**`Git`**](https://git-scm.com/) - [**`Github`**](https://github.com/Eclectikus) - [**`GitHub Desktop`**](https://desktop.github.com/) **/** [**`TortoiseSVN`**](https://osdn.net/projects/tortoisesvn/)
@@ -21,7 +19,7 @@ Puedes (y deberías) consultar más abajo el [README.md original](#readmemd-orig
 - [**`Scoop`**](https://scoop.sh/)
 - [**`npm`**](https://www.npmjs.com/) - [**`npx`**](https://www.npmjs.com/package/npx) **/** [**`yarn`**](https://yarnpkg.com/)
 
-### PowerShell
+## PowerShell
 
 Aunque en principio es posible utilizar el **`CLI`** que tengas integrado en tu propio **`IDE`**, yo he utilizado aquí **`PowerShell 5.1`** ([Docs](https://docs.microsoft.com/en-us/powershell/scripting/how-to-use-docs?view=powershell-5.1)).
 
