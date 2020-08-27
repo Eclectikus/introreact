@@ -29,14 +29,16 @@ export const actionsData = {
     onArchiveTask: action('onArchiveTask'),
 };
 
-export const Default = () => < Task task = {
-    {
-        ...taskData
+export const Default = () => {
+    return <Task task = {
+        object('task', {
+            ...taskData
+        })
+    } {
+        ...actionsData
     }
-} {
-    ...actionsData
-}
-/>;
+    />;
+};
 
 export const Pinned = () => < Task task = {
     {
