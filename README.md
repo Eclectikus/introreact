@@ -20,7 +20,7 @@ Adicionalmente puedes (y deberías) consultar más abajo el [README.md original]
 - [**`Scoop`**](https://scoop.sh/)
 - [**`npm`**](https://www.npmjs.com/) - [**`npx`**](https://www.npmjs.com/package/npx) **/** [**`yarn`**](https://yarnpkg.com/)
 - [**Redux**](https://redux.js.org/)
-- [**Chromatic**](https://www.chromatic.com/) :warning: Usar [GitHub secrets](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) para ofuscar el **`token`** del proyecto.
+- [**Chromatic**](https://www.chromatic.com/) :shipit: Usar [GitHub secrets](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) para ofuscar el **`token`** del proyecto.
 
 ## PowerShell
 
