@@ -5,6 +5,7 @@ import React from 'react';
 import {
     PureTaskList
 } from './TaskList';
+import * as TaskStories from './Task.stories';
 import {
     taskData,
     actionsData

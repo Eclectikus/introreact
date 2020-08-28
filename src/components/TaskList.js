@@ -65,7 +65,10 @@ export function PureTaskList({
             /div>
         );
     }
-
+    const tasksInOrder = [
+        ...tasks.filter(t => t.state === 'TASK_PINNED'),
+        ...tasks.filter(t => t.state !== 'TASK_PINNED'),
+    ];
     return ( <
         div className = "list-items" > {
             tasks.map(task => ( <
@@ -83,19 +86,6 @@ export function PureTaskList({
         /div>
     );
 }
-
-// TaskList.propTypes = {
-//     loading: PropTypes.bool,
-//     tasks: PropTypes.arrayOf(Task.propTypes.task).isRequired,
-//     onPinTask: PropTypes.func.isRequired,
-//     onArchiveTask: PropTypes.func.isRequired,
-// };
-
-// TaskList.defaultProps = {
-//     loading: false,
-// };
-
-// export default TaskList;
 
 PureTaskList.propTypes = {
     loading: PropTypes.bool,
